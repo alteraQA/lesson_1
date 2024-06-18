@@ -7,3 +7,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 driver.get("http://ya.ru/")
 sleep(5)
 driver.save_screenshot('./test.jpg')
+
+
+
+
